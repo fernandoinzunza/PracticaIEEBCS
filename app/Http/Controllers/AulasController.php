@@ -31,7 +31,7 @@ class AulasController extends Controller
     {
         $computadora = Computadora::find($request->id);
 
-        if($computadora->Aula !=null)
+        if($computadora->aula_destinada == "Ninguna")
         {
             $computadora->aula_destinada = $request->aula_id;
             $computadora->save();
@@ -41,7 +41,7 @@ class AulasController extends Controller
         }
         else{
             return response()->json([
-                'message' => $computadora->Aula
+                'message' => "Ya esta agregada a otra aula!!"
             ]);
         }
         

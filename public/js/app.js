@@ -52265,14 +52265,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('form-component', __webpack_require__(/*! ./components/AddStudentFormComponent.vue */ "./resources/js/components/AddStudentFormComponent.vue")["default"]);
-Vue.component('student-card', __webpack_require__(/*! ./components/StudentCard.vue */ "./resources/js/components/StudentCard.vue")["default"]);
-Vue.component('student-list', __webpack_require__(/*! ./components/StudentListComponent.vue */ "./resources/js/components/StudentListComponent.vue")["default"]);
 Vue.component('form-computer', __webpack_require__(/*! ./components/NewComputerFormComponent.vue */ "./resources/js/components/NewComputerFormComponent.vue")["default"]);
-Vue.component('computer-card', __webpack_require__(/*! ./components/ComputerCard.vue */ "./resources/js/components/ComputerCard.vue")["default"]);
-Vue.component('computer-list', __webpack_require__(/*! ./components/ComputerListComponent.vue */ "./resources/js/components/ComputerListComponent.vue")["default"]);
-Vue.component('form-aula', __webpack_require__(/*! ./components/AddAulaFormComponent.vue */ "./resources/js/components/AddAulaFormComponent.vue")["default"]);
-Vue.component('aula-card', __webpack_require__(/*! ./components/AulaCard.vue */ "./resources/js/components/AulaCard.vue")["default"]);
-Vue.component('aula-list', __webpack_require__(/*! ./components/AulaListComponent.vue */ "./resources/js/components/AulaListComponent.vue")["default"]); // start app
+Vue.component('form-aula', __webpack_require__(/*! ./components/AddAulaFormComponent.vue */ "./resources/js/components/AddAulaFormComponent.vue")["default"]); // start app
 //Vue.component('add-student-form', require('./components/AddStudentFormComponent.vue').default);
 
 /**
@@ -52484,50 +52478,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/AulaCard.vue":
-/*!**********************************************!*\
-  !*** ./resources/js/components/AulaCard.vue ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\AulaCard.vue'");
-
-/***/ }),
-
-/***/ "./resources/js/components/AulaListComponent.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/components/AulaListComponent.vue ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\AulaListComponent.vue'");
-
-/***/ }),
-
-/***/ "./resources/js/components/ComputerCard.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/components/ComputerCard.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\ComputerCard.vue'");
-
-/***/ }),
-
-/***/ "./resources/js/components/ComputerListComponent.vue":
-/*!***********************************************************!*\
-  !*** ./resources/js/components/ComputerListComponent.vue ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\ComputerListComponent.vue'");
-
-/***/ }),
-
 /***/ "./resources/js/components/NewComputerFormComponent.vue":
 /*!**************************************************************!*\
   !*** ./resources/js/components/NewComputerFormComponent.vue ***!
@@ -52594,28 +52544,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewComputerFormComponent_vue_vue_type_template_id_6488abe9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./resources/js/components/StudentCard.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/components/StudentCard.vue ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\StudentCard.vue'");
-
-/***/ }),
-
-/***/ "./resources/js/components/StudentListComponent.vue":
-/*!**********************************************************!*\
-  !*** ./resources/js/components/StudentListComponent.vue ***!
-  \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\laragon\\www\\PracticaIEEBCS\\resources\\js\\components\\StudentListComponent.vue'");
 
 /***/ }),
 

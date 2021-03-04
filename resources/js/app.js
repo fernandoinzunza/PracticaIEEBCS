@@ -22,14 +22,11 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('form-component', require('./components/AddStudentFormComponent.vue').default);
-Vue.component('student-card', require('./components/StudentCard.vue').default);
-Vue.component('student-list', require('./components/StudentListComponent.vue').default);
+
  Vue.component('form-computer',require('./components/NewComputerFormComponent.vue').default);
-  Vue.component('computer-card',require('./components/ComputerCard.vue').default);
-  Vue.component('computer-list',require('./components/ComputerListComponent.vue').default);
+
   Vue.component('form-aula',require('./components/AddAulaFormComponent.vue').default);
-  Vue.component('aula-card',require('./components/AulaCard.vue').default);
-  Vue.component('aula-list',require('./components/AulaListComponent.vue').default);
+
   
   // start app
 

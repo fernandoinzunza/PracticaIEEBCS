@@ -30,3 +30,4 @@ Route::get("/aulas","AulasController@index")->name("aulas");
 Route::get("/aulas/getAulas","AulasController@getAulas");
 Route::post("/alumnos/getPcAsignadas","AlumnoController@pcAsignadas");
 Route::post("/aulas/agregarPC","AulasController@agregarComputadora");
+Route::get("/reporte","ComputadorController@generarReporte")->name("reporte");

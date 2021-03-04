@@ -2361,6 +2361,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["list"],
   data: function data() {
@@ -39856,6 +39861,8 @@ var render = function() {
     "div",
     { staticClass: "container" },
     [
+      _vm._m(0),
+      _vm._v(" "),
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-sm-12" }, [
           _c("div", { staticClass: "card" }, [
@@ -39970,14 +39977,14 @@ var render = function() {
             { staticClass: "modal-dialog", attrs: { role: "document" } },
             [
               _c("div", { staticClass: "modal-content" }, [
-                _vm._m(0),
+                _vm._m(1),
                 _vm._v(" "),
                 _c("div", { staticClass: "modal-body" }, [
                   _c(
                     "table",
                     { staticClass: "table table-striped" },
                     [
-                      _vm._m(1),
+                      _vm._m(2),
                       _vm._v(" "),
                       _vm._l(_vm.computadorasDisp, function(c) {
                         return _c("tbody", { key: c.id }, [
@@ -40025,14 +40032,14 @@ var render = function() {
             { staticClass: "modal-dialog", attrs: { role: "document" } },
             [
               _c("div", { staticClass: "modal-content" }, [
-                _vm._m(2),
+                _vm._m(3),
                 _vm._v(" "),
                 _c("div", { staticClass: "modal-body" }, [
                   _c(
                     "table",
                     { staticClass: "table table-striped" },
                     [
-                      _vm._m(3),
+                      _vm._m(4),
                       _vm._v(" "),
                       _vm._l(_vm.pcsAsignadas, function(c) {
                         return _c("tbody", { key: c.id }, [
@@ -40057,6 +40064,18 @@ var render = function() {
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("p", [
+        _vm._v(
+          "Instrucciones: Agrega los objetos y despues los relacionas. El reporte solo muestra las computadoras que estan relacionadas a un alumno y a un aula.\n      Gracias :)\n    "
+        )
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
